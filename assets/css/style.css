@@ -7,7 +7,7 @@ h1 {
   text-align: center;
   background: #4aaaa5;
   color: #FFFFFF;
-  float: left;
+  /* float: left; */
   font-family: 'Georgia', Times, Times New Roman, serif;
   position: absolute;
 }
@@ -31,17 +31,10 @@ h3 {
 }
 
 body {
-  padding: 150px 300px 150px 300px;
-  margin: 0; auto;
-  width: 960px;
-  height: 800px;
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 18px;
-  line-height: 150%;
   color: #777777;
   background-image: url("../images/checkerboard-cross/checkerboard-cross.png");
   background-repeat: repeat;
-  text-align: left;
 }
 
 .KAT{
@@ -56,28 +49,37 @@ body {
   position: relative;
 }
 
-nav a{
-  padding-right: 10px;
-  padding-left: 10px;
-}
 
 header{
-  margin: 0 auto;
   padding: 0;
   background-color: white;
 }
 
-.menu{
-  overflow: auto;
-  clear: both;
-  width: 90;
-  margin: auto;
-  text-align: center;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  color: #777777;
-  height: 100px;
-  background: none;
+.menu {
+    width: 100%;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #777777;
+    height: 100px;
+    position: fixed;
+    top: 0;
 }
+
+.nav {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.options{
+  position: relative;
+  text-align: right;
+}
+
+/* TO DO List */
+add margin/padding on options class
+margin auto 0 only for top/bottom not left/right
+for anchor tags: set different states, define set of rules in css, make sure you use dev tools inspect :hov to set status clicked/not clicked/hover
+:hov is like pseudo element so need to add in css a:hove<target>
+
 
 
 
