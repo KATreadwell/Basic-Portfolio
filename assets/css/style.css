@@ -1,4 +1,9 @@
 
+a {
+  color: #777777;
+}
+
+
 h1 {
   padding: 10px 0;
   margin: 10;
@@ -39,8 +44,8 @@ body {
   font-size: 18px;
   line-height: 150%;
   color: #777777;
-  background-image: url("checkerboard-croos.png");
-  background-repeat: repeat-x;
+  background-image: url("../images/checkerboard-cross/checkerboard-cross.png");
+  background-repeat: repeat;
   text-align: left;
 }
 
