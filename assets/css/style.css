@@ -1,13 +1,12 @@
 
-
 h1 {
   padding: 10px 0;
   margin: 10;
   margin-bottom: 20px;
   font-size: 28px;
-  color: #ffffff;
   text-align: center;
   background: #4aaaa5;
+  color: #FFFFFF;
   float: left;
   font-family: 'Georgia', Times, Times New Roman, serif;
   position: absolute;
@@ -57,14 +56,27 @@ body {
   position: relative;
 }
 
-.name{
-  position: fixed;
-  top: 50px;
+nav a{
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+header{
+  margin: 0 auto;
+  padding: 0;
+  background-color: white;
 }
 
 .menu{
-  position: relative;
-  float: top;
+  overflow: auto;
+  clear: both;
+  width: 90;
+  margin: auto;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #777777;
+  height: 100px;
+  background: none;
 }
 
 
