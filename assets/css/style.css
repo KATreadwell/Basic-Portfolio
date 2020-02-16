@@ -2,12 +2,12 @@
 .menu {
   width: 100%;
   font-family: Georgia, "Times New Roman", Times, serif;
-  color: #777777;
   height: 110px;
   position: fixed;
   top: 0;
   left: 0;
-  background-color: white;
+  border-bottom: 2px solid #cccccc;
+  background: white;
 }
 
 .nav {
@@ -22,19 +22,12 @@
   padding: 10px;
   width: 100px;
   right: -550px;
+  text-decoration: none;
 }
 
-
-h3:visited{
-  color: black;
-}
-
-h3:active{
-  color: darkblue;
-}
   
 h3:hover{
-  color: darkslategray;
+  color: darkslategray ;
 }
 
 .me{
@@ -45,6 +38,9 @@ h3:hover{
   position: relative;
   left: 480px;
   top: 50px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #cccccc;
 }
 
 .KAT{
@@ -56,6 +52,7 @@ h3:hover{
 .boring{
   text-align: left;
   display: inline-block;
+  padding:10px;
 }
 
 
@@ -110,6 +107,11 @@ body {
   background-color: white;
   height: 300px;
   top: -10px;
+  padding: 10px;
+}
+
+.formcontainer{
+  padding: 10px;
 }
 
 #name{
@@ -127,65 +129,48 @@ body {
   height: 50px;
 }
 
-
-/* TO DO List */
-/* add margin/padding on options class
-margin auto 0 only for top/bottom not left/right
-for anchor tags: set different states, define set of rules in css, make sure you use dev tools inspect :hov to set status clicked/not clicked/hover
-:hov is like pseudo element so need to add in css a:hove<target> */
-
+#submit{
+  background-color: #4aaaa5; 
+  color: #FFFFFF;
+  padding: 10px;
+  font-weight: bold;
+}
 
 
 /* Portfolio */
 
+
 .portfolio{
-  width: 100%; 
-} 
-
-.column{
- float: left;
- width: 50%;
- padding: 5px;  
+  padding: 10px;
+  display: in-block;
+  width: 100%;
+  align-items: center;
 }
-
-.row{
-  display: table;
-}
-
-.rotateimg180 {
-  -webkit-transform:rotate(180deg);
-  -moz-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
-  transform: rotate(90deg);
-  }
 
 .fun{
-  width: 245px;
-  height: 150px;
+  float: left;
+  padding: 10px;
 }
 
 .ice{
-  width: 245px;
-  height: 150px;
-  
+  float: left;
+  padding: 10px;
 }
 
 .needlepoint{
-  width: 245px;
-  height: 150px;
+  float: left;
+  padding: 10px;
 }
 
 .guns{
-  width: 245px;
-  height: 150px;
+  float: left;
+  padding: 10px;
 }
 
 .random{
-  width: 245px;
-  height: 150px;
+  float: left;
+  padding: 10px;
 }
-
 
 .footerwrap{
   width: 100%;
