@@ -27,7 +27,7 @@
 
   
 h3:hover{
-  color: darkslategray ;
+  color: black;
 }
 
 .me{
@@ -141,10 +141,14 @@ body {
 
 
 .portfolio{
-  padding: 10px;
-  display: in-block;
-  width: 100%;
-  align-items: center;
+  display: inline-block;
+  position: relative;
+}
+
+.wrap{
+  background-color: #4aaaa5;
+  color: white;
+  text-align: center;
 }
 
 .fun{
@@ -171,6 +175,7 @@ body {
   float: left;
   padding: 10px;
 }
+
 
 .footerwrap{
   width: 100%;
